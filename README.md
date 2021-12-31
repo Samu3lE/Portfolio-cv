@@ -3,4 +3,4 @@ Portfolio-CV
 
 ## Project deployed
 
-samuele-portfolio-cv.netlify.app
+https://samuele-portfolio-cv.netlify.app/
