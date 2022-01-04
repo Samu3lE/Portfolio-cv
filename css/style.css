@@ -1,11 +1,16 @@
 /* ********** Custom Properties ********** */
 
 :root {
-    --first-color: #d90062;
-    --first-alpha-color: rgba(217, 0, 98, 0.75);
+    --first-color: #0dcaf0;
+    /* --first-color: #2c3e50;
+    --first-color: #42b9783;
+    --first-color: #d90062; */
+    --first-alpha-color: rgba(0, 166, 217, 0.75);
+    /* --first-alpha-color: rgba(217, 0, 98, 0.75); */
     --second-color: #14192d;
     --second-alpha-color: rgba(20, 25, 45, 0.75);
-    --third-color: #501464;
+    --third-color: rgba(37, 70, 80, 0.75);
+    /* --third-color: #501464; */
     --third-alpha-color: rgba(80, 20, 100, 0.75);
     --white-color: #fff;
     --gray-light-color: #f3f3f3;
@@ -16,6 +21,7 @@
     --title-color: #333;
     --text-color: #222;
     --white-alpha-color: rgba(255, 255, 255, 0.5);
+    --white-alpha-color-hero: rgba(255, 255, 255, 0.7);
     --black-alpha-color: rgba(0, 0, 0, 0.5);
     --font: "Raleway", sans-serif;
     --max-width: 1200px;
@@ -120,6 +126,7 @@ p {
     text-align: center;
     overflow-x: hidden;
     background-color: var(--carousel-bg-color);
+    /* background-color: var(--link-color); */
 }
 
 .carousel .slides {
@@ -144,6 +151,10 @@ p {
     width: 0.75rem;
     height: 0.75rem;
     cursor: pointer;
+}
+
+.slide>blockquote {
+    width: 70%;
 }
 
 #slide-1:checked~.slides {
@@ -530,6 +541,10 @@ progress::-moz-progress-bar {
     width: 2rem;
     height: 2rem;
     fill: var(--first-color);
+}
+
+svg {
+    color: var(--first-color);
 }
 
 .contact-card>small {
