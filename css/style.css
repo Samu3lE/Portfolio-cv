@@ -108,7 +108,7 @@ p {
     0% {
         transform: translateX(0%);
     }
-    50% {
+    25% {
         transform: translateX(-50%);
     }
     /* 50% {
@@ -122,6 +122,7 @@ p {
 .carousel {
     margin: 2rem auto;
     padding: 2rem 0;
+    width: 90%;
     max-width: 800px;
     text-align: center;
     overflow-x: hidden;
@@ -153,10 +154,6 @@ p {
     cursor: pointer;
 }
 
-.slide>blockquote {
-    width: 70%;
-}
-
 #slide-1:checked~.slides {
     transform: translateX(0%);
 }
@@ -176,6 +173,8 @@ p {
 
 #slide-1:checked~.slides-nav label#dot-1,
 #slide-2:checked~.slides-nav label#dot-2 {
+    /* #slide-3:checked~.slides-nav label#dot-3,
+#slide-4:checked~.slides-nav label#dot-4 { */
     background-color: var(--gray-dark-color);
 }
 
